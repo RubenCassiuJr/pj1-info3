@@ -17,7 +17,7 @@ public class Solver{
         //Implemente su metodo aqui. Sientase libre de implementar métodos adicionales
 
         bestpath = null; 
-        bestpath_length = 100000; //empezamos en cienmil porque es nuestro límite superior
+        bestpath_length = 100000; //inicializamos en cienmil porque es nuestro límite superior
 
         int height = maze.getHeight();
         int width = maze.getWidth();
